@@ -1,0 +1,9 @@
+[submodule "InterruptHandler"]
+	path = InterruptHandler
+	url = git@github.com:YassienTawfikk/InterruptHandler.git
+[submodule "Press2Display"]
+	path = Press2Display
+	url = git@github.com:YassienTawfikk/Press2Display.git
+[submodule "ConveyorX"]
+	path = ConveyorX
+	url = git@github.com:YassienTawfikk/ConveyorX.git
