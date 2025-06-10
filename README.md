@@ -84,8 +84,8 @@ cd Press2Display  # or InterruptHandler, ConveyorX
 
 ### Contributors
 
-<div>
-  <table align="center">
+<div align="center">
+  <table>
     <tr>
       <td align="center">
         <a href="https://github.com/YassienTawfikk" target="_blank">
