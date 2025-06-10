@@ -9,9 +9,9 @@
 All projects are fully modular and integrated as Git submodules. Each has its own Proteus simulation, driver structure, and dedicated `README.md` with technical breakdowns and visual demos. Ideal for engineering students, embedded systems learners, and rapid prototyping portfolios.
 
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/984412f8-db41-4e62-95c0-4b706ce76adc" width="60%" alt="ConveyorX">
   <img src="https://github.com/user-attachments/assets/71f2e2ad-f7e6-4b17-839e-11ace7bb7ff3" width="49%" alt="InterruptHandler">
   <img src="https://github.com/user-attachments/assets/194055fe-b6da-4612-b0b3-9ff41593cdd5" width="49%" alt="Press2Display">
-  <img src="https://github.com/user-attachments/assets/placeholder-conveyor.jpg" width="49%" alt="ConveyorX">
 </p>
 
 ---
@@ -20,9 +20,10 @@ All projects are fully modular and integrated as Git submodules. Each has its ow
 
 | Project            | Description                                                                                         | Link                                                              |
 |--------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| **ConveyorX**        | Smart conveyor simulation with ADC-based PWM motor control, timer capture, and emergency interrupts. | [ConveyorX](https://github.com/YassienTawfikk/ConveyorX)               |
 | **InterruptHandler** | Real-time counter system using EXTI interrupts and 3-digit 7-segment multiplexing.                 | [InterruptHandler](https://github.com/YassienTawfikk/InterruptHandler) |
 | **Press2Display**    | Keypad-driven system with lookup-based display logic and GPIO remapping abstraction.               | [Press2Display](https://github.com/YassienTawfikk/Press2Display)       |
-| **ConveyorX**        | Smart conveyor simulation with ADC-based PWM motor control, timer capture, and emergency interrupts. | [ConveyorX](https://github.com/YassienTawfikk/ConveyorX)               |
+
 
 Each is included as a **Git submodule**. To clone this suite with all subprojects:
 
