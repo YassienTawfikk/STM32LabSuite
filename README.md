@@ -27,8 +27,7 @@ All projects are fully modular and integrated as Git submodules. Each has its ow
 
 Each is included as a **Git submodule**. To clone this suite with all subprojects:
 
-```
-
+```bash
 git clone --recurse-submodules [git@github.com](mailto:git@github.com)\:YassienTawfikk/STM32LabSuite.git
 
 ````
