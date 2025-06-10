@@ -48,6 +48,21 @@ git clone --recurse-submodules [git@github.com](mailto:git@github.com)\:YassienT
 
 ---
 
+### Technical References & Datasheets
+
+All STM32LabSuite projects are designed with strict adherence to official technical documentation. These references were essential for accurate register-level programming, hardware interfacing, and peripheral configuration:
+
+| Manual / Datasheet                     | Role in Project                                                                                                   | Link                                                                           |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **RM0368: STM32F401 Reference Manual** | The core reference for all low-level register configurations, including EXTI, TIM, ADC, NVIC, and GPIO handling.  | [PDF](https://github.com/YassienTawfikk/STM32LabSuite/blob/main/Manuals/rm0368-stm32f401xbc-and-stm32f401xde-advanced-arm-based-32-bit-mcus-stmicroelectronics-en.pdf)   |
+| **PM0214: STM32F4 Programming Manual** | Essential for understanding Cortex-M4 instruction set, startup behavior, exception handling, and low-power modes. | [PDF](https://github.com/YassienTawfikk/STM32LabSuite/blob/main/Manuals/pm0214-stm32-cortex-m4-mcus-and-mpus-programming-manual-stmicroelectronics-en.pdf) |
+| **STM32F401xE Datasheet**              | Defines all electrical characteristics, pin mappings, memory layout, and package-specific details.                | [PDF](https://github.com/YassienTawfikk/STM32LabSuite/blob/main/Manuals/stm32f401re.pdf)      |
+| **HD44780U LCD Controller Datasheet**  | Used in `Press2Display/` to implement custom LCD timing and 4-bit control logic for HD44780-based displays.       | [PDF](https://github.com/YassienTawfikk/STM32LabSuite/blob/main/Manuals/HD44780U%20LCD.pdf)            |
+
+These documents ensure that the projects are not only functional but also compliant with real-world embedded design standards.
+
+---
+
 ### Build & Simulation Setup
 
 All projects follow a consistent STM32 + CMake build system. You can use either **CLion** or **STM32CubeIDE** to build the code.
